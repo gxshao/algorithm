@@ -1,4 +1,5 @@
 import Stack.QueueImplByTwoStack;
+import Tree.AllpathForValue;
 import Tree.HasSubtree;
 import Tree.MirrorOfTree;
 import Tree.ReConstructBinaryTree;
@@ -24,7 +25,10 @@ public class Main {
 		//new int[][]{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15}}
 		//new int[][]{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}}
 		//new printMatrixByClockWise().printMatrix(new int[][]{{1,2,3,4,5},{6,7,8,9,10},{11,12,13,14,15},{16,17,18,19,20},{21,22,23,24,25}});
-		new printMatrixByClockWise().printMatrix(new int[][]{{1,2},{3,4},{5,6},{7,8},{9,10}});
+		TreeNode root=new TreeNode(1);
+		root.left=new TreeNode(2);
+		root.right=new TreeNode(3);
+		System.out.println(new AllpathForValue().FindPath(root, 3));
 		
 		System.out.println();
 	
