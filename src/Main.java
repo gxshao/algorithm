@@ -12,6 +12,7 @@ import linkedlist.ListNode;
 import linkedlist.ReverseList;
 import math.ExponentOfBase;
 import math.printMatrixByClockWise;
+import string.OrderString;
 
 public class Main {
 
@@ -28,7 +29,7 @@ public class Main {
 		TreeNode root=new TreeNode(1);
 		root.left=new TreeNode(2);
 		root.right=new TreeNode(3);
-		System.out.println(new AllpathForValue().FindPath(root, 3));
+		System.out.println(new OrderString().Permutation("abcd"));
 		
 		System.out.println();
 	
