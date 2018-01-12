@@ -10,6 +10,7 @@ import array.CountNumOfArray;
 import array.FindKInArray;
 import array.FindMaxSumOfSubArray;
 import array.InversePairs;
+import array.SumofS;
 import array.UglyNumber;
 import binary.CountOneOfNumber;
 import dynamicPrograming.Finbonacci;
@@ -19,7 +20,9 @@ import linkedlist.ReverseList;
 import math.ExponentOfBase;
 import math.printMatrixByClockWise;
 import string.FirstMerge;
+import string.LeftRotate;
 import string.OrderString;
+import string.ReverseWords;
 
 public class Main {
 
@@ -38,7 +41,7 @@ public class Main {
 		// TreeNode root=new TreeNode(1);
 		// root.left=new TreeNode(2);
 		// root.right=new TreeNode(3);
-		System.out.println(new ContinueSqeuence().FindContinuousSequence(3));
+		System.out.println(new ReverseWords().ReverseSentence("i am a stu"));
 
 		System.out.println();
 
