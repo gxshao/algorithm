@@ -49,7 +49,7 @@ public class Main {
 		// root.right=new TreeNode(3);
 		long s=System.currentTimeMillis();
 		//"+100","5e2","-123","3.1416"和"-1E-16"
-		//-.123  5e+6  1+23  1.2.3 +-5  12e+5.4
+		
 		System.out.println(new JundgeNum().isNumeric("12e+5.4".toCharArray()));
 		System.out.println("运行时间："+(System.currentTimeMillis()-s));
 
