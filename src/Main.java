@@ -16,6 +16,7 @@ import array.UglyNumber;
 import binary.CountOneOfNumber;
 import dynamicPrograming.Finbonacci;
 import dynamicPrograming.RectCover;
+import linkedlist.DeleteRepeatNode;
 import linkedlist.ListNode;
 import linkedlist.ReverseList;
 import math.ExponentOfBase;
@@ -49,8 +50,8 @@ public class Main {
 		// root.right=new TreeNode(3);
 		long s=System.currentTimeMillis();
 		//"+100","5e2","-123","3.1416"和"-1E-16"
-		
-		System.out.println(new JundgeNum().isNumeric("12e+5.4".toCharArray()));
+		new DeleteRepeatNode().deleteDuplication(new ListNode(new int[] {1,2,3,3,4,4,5})).printSelf();
+		System.out.println();
 		System.out.println("运行时间："+(System.currentTimeMillis()-s));
 
 	}
