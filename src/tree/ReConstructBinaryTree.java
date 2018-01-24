@@ -1,4 +1,4 @@
-package Tree;
+package tree;
 
 public class ReConstructBinaryTree {
 	public TreeNode reConstructBinaryTree(int[] pre,int[] in) {
